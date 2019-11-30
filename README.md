@@ -1,2 +1,3 @@
 # exception-handler-demo
-add logic exception handler on http status
+xử lý logic exception Biz theo HttpStatus 
+Validation data 
