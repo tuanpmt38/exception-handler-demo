@@ -33,8 +33,7 @@ public class RestResponseEntityExceptionHandler extends ResponseEntityExceptionH
    * @return the response entity
    */
   @ExceptionHandler(BizException.class)
-  public ErrorResponse handlerBusinessException(BizException ex,
-      HttpServletRequest request) {
+  public ErrorResponse handlerBusinessException(BizException ex, HttpServletRequest request) {
     HttpStatus httpStatus;
     switch (ex.errType) {
       case BAD_REQUEST:
